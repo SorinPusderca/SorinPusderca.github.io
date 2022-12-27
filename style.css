@@ -16,7 +16,7 @@
   src: url(./font/road_rage/Road_Rage.otf);
 }
 
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
   .container-projects {
     flex-direction: column;
     transform: scale(0.9);
@@ -25,9 +25,31 @@
 
   .about_me_photo:hover {
     cursor: pointer;
-    width: auto;
+    /* width: auto; */
+    margin-left: 50px;
   }
-}
+  p, ul {
+    font-size:large;
+  }
+  .main_container{
+    margin-left: -10px;
+  }
+  .hero{
+    height: 150vh;
+    /* margin-top: -100px; */
+    margin-bottom: none;
+    margin-left: 33.3px;
+   height: 150vh;
+  }
+  h1, h2{
+    text-align: center;
+  }
+  
+} 
+
+
+
+
 
 /* ?????????????????????????????????? */
 /* ?????????????????????????????????? */
